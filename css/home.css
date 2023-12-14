@@ -1,0 +1,33 @@
+.card-item {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  background-color: #BEFFF7;
+}
+
+.card:hover {
+  background-color: #00adb4;
+}
+
+.color1 {
+  background-color: #A6F6FF;
+}
+
+.color1:hover {
+  background-color: #BEFFF7;
+}
+
+.front {
+  background-image: url(../images/homefrontimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 475px !important;
+}
+
+.about{
+  padding-top: 100px;
+}
