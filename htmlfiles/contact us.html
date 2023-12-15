@@ -55,22 +55,22 @@
             <form>
                 <div class="mb-3 mt-3">
                     <label for="exampleFormControlInput1" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Username" >
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Username" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput2" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput3" class="form-label">Subject</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Subject">
+                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Subject" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Your Feedback</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="resize: none;"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" required rows="5" style="resize: none;"></textarea>
                 </div>
                 <div class="text-center">
-                  <button class="btn btn-primary"><h4>Send</h4></button>
+                  <button class="btn btn-primary" id="myButton" ><h4>Send</h4></button>
                 </div>
             </form>
         </div>
