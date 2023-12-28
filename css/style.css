@@ -1,0 +1,101 @@
+    * {
+      margin: 0px;
+      padding: 0px;
+      font: 1em sans-serif;
+      box-sizing: border-box;
+    }
+
+    main {
+      overflow: hidden;
+    }
+    
+    header a {
+      color: white !important;
+      overflow: hidden;
+      display: inline;
+    }
+
+    header a {
+      border-radius: 15px;
+      color: white !important;
+    }
+
+    header ul li a:hover {
+      background-color: #00adb4;
+      color: black !important;
+      transition: color 0.2s;
+    }
+
+    .nav-link { 
+      float: left;
+      font-size: 1.2rem;
+      margin-right: 50px;
+    }
+
+    @media (min-width: 768px) {
+    .navbar-brand {
+      margin-right: 450px;
+    }
+    }
+
+    .logo{
+      width: 120px;
+      height: 40px;
+    }
+
+    .dropdown-item:hover {
+      background-color: #00adb4;
+    }
+
+    .navbar-toggler {
+      background-color: white ;
+      border-color: white;
+    }
+
+    footer li a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    body {
+      background-color: white;
+    }
+
+    .conversion {
+      background-color: #A6F6FF;
+    }
+
+    #buttonCurrency {
+      background-color: #DDF2FD;
+    }
+
+    #buttonCurrency:hover {
+      background-color: #00adb4;
+    }
+
+    .color1 {
+      background-color: #A6F6FF;
+    }
+  
+    .color1:hover {
+      background-color: #BEFFF7;
+    }
+
+    .feedback{
+      background-color: #A6F6FF;
+      border-radius: 15px;
+    }
+
+    .videoWrapper {
+      position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 25px;
+     height: 0;
+    }
+    .videoWrapper iframe {
+     position: absolute;
+      top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+    }
