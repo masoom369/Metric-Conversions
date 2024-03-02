@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Currency Converter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/animate.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../images/logoo.jpg" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg  bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../images/icon1.PNG" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link animated fadeInUp" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item" href="../html/area converter.html">Area Converter</a></li>
+                <li><a class="dropdown-item" href="../html/length converter.html">Length Converter</a></li>
+                <li><a class="dropdown-item" href="../html/volume converter.html">Volume Converter</a></li>
+                <li><a class="dropdown-item" href="../html/mass converter.html">Mass Converter</a></li>
+                <li><a class="dropdown-item" href="../html/temperature converter.html">Temperature Converter</a></li>
+                <li><a class="dropdown-item" href="../html/currency converter.html">Currency Converter</a></li>
+              </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link animated fadeInUp" href="../html/history.html">History</a></li>
+              <li class="nav-item"><a class="nav-link animated fadeInUp" href="../html/FAQ.html">FAQ</a></li>
+              <li class="nav-item"><a class="nav-link animated fadeInUp" href="../html/contact us.html">Contact Us</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container animated fadeInDown mt-2">
+      <h1>Currency</h1>
+      <p>Currency: The invention and evolution of currency are complex processes that have occurred over thousands of
+        years. The concept of currency evolved from barter systems, with various items used as early forms of money,
+        such as shells, livestock, and precious metals. Modern currency systems, like the use of paper money and coins,
+        have diverse origins across different regions and time periods. The specific individuals who invented currency
+        are unknown, but it developed in response to the needs of growing economies and trade. The first modern
+        banknotes, for example, were introduced in Europe during the 17th century, and the concept of fiat money, not
+        backed by physical assets like gold, developed over time and continues to evolve today.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 animated fadeInUp conversion p-3">
+            <h4 class="converter-title text-center">Currency Converter</h4>
+            <div class="d-flex">
+              <select id="inputCurrencyFrom" class="form-select">
+                <option value="USD">United States Dollar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="JPY">Japanese Yen (JPY)</option>
+                <option value="GBP">British Pound Sterling (GBP)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="CAD">Canadian Dollar (CAD)</option>
+                <option value="CHF">Swiss Franc (CHF)</option>
+                <option value="CNY">Chinese Yuan (CNY)</option>
+                <option value="INR">Indian Rupee (INR)</option>
+                <option value="MXN">Mexican Peso (MXN)</option>
+                <option value="PKR">Pakistani Rupee (PKR)</option>
+                <option value="MYR">Malaysian Ringgit (MYR)</option>
+              </select>
+              <select id="inputCurrencyTo" class="form-select">
+                <option value="PKR">Pakistani Rupee (PKR)</option>
+                <option value="USD">United States Dollar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="JPY">Japanese Yen (JPY)</option>
+                <option value="GBP">British Pound Sterling (GBP)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="CAD">Canadian Dollar (CAD)</option>
+                <option value="CHF">Swiss Franc (CHF)</option>
+                <option value="CNY">Chinese Yuan (CNY)</option>
+                <option value="INR">Indian Rupee (INR)</option>
+                <option value="MXN">Mexican Peso (MXN)</option>
+                <option value="MYR">Malaysian Ringgit (MYR)</option>
+              </select>
+            </div>
+            <button class="btn form-control text-center mt-2" id="buttonCurrency">Exchange Rate</button>
+          <div class="form-control text-center mt-2" id="currencyResult">0</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container-fluid">
+        <div class="row animated fadeInDown">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <div class="videoWrapper">
+              <iframe src="https://www.youtube-nocookie.com/embed/LkUqI4b6gmU?si=gt5AJZ0anXL3lOZk" allowfullscreen></iframe>
+          </div>
+          </div>
+          <div class="col-md-5 videodescription">
+            <h2 class="font-weight-bold">What will this video teach you?</h2>
+            <p>
+              This video provides a comprehensive understanding of area measurement. It covers square meters and square
+              feet as foundational units, progressing to more complex ones like square kilometers, acres, and hectares.
+              The video's unique approach employs visuals, clear graphics, and relatable examples for easy comprehension.
+              It simplifies area measurement and offers practical applications. Additionally, it guides viewers through
+              metric to imperial unit conversions, ensuring a well-rounded grasp of area measurement in various systems.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <h4 class="text-center">Most Popular:</h4>
+        <h6>Dollar:</h6>
+        <p>Who: The concept of currency and coins has a long history that evolved across many civilizations. Modern currency, such as the United States Dollar, was developed by the U.S. government.</p>
+        <p>How: The U.S. Dollar was established by the U.S. Congress as the official currency of the United States and was initially based on the Spanish dollar, which was widely used in trade.</p>
+        <p>When: The United States Dollar was officially adopted as the national currency in 1792, and various denominations and designs of dollar bills and coins have been introduced over the years.</p>
+      </div>
+  </main>
+<br>
+<footer class="bg-dark text-light text-center p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>About the Webpage</h4>
+        <p>This webpage is designed to provide you with easy-to-use tools and information for converting various
+          metric measurements. Whether you need to convert area, length, volume, mass, temperature, or currency, we've
+          got you covered. Explore our conversion categories and make your calculations hassle-free.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Created By</h4>
+        <ul class="list-unstyled">
+          <li>Anshul kumar</li>
+          <li>Muhammad Masoom Mallah</li>
+          <li>Muhammad Azlan</li>
+        </ul>
+        <h4>Supported By</h4>
+        <ul class="list-unstyled">
+          <li><a href="https://aptech-education.com.pk/" target="_blank">Aptech</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Services</h4>
+        <ul class="list-unstyled conversion-categories-list">
+          <li><a href="../html/area converter.html">Area Converter</a></li>
+          <li><a href="../html/length converter.html">Length Converter</a></li>
+          <li><a href="../html/volume converter.html">Volume Converter</a></li>
+          <li><a href="../html/mass converter.html">Mass Converter</a></li>
+          <li><a href="../html/temperature converter.html">Temperature Converter</a></li>
+          <li><a href="../html/currency converter.html">Currency Converter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-1">
+    &COPY; 2023 Copyright: MetricZEN ALL RIGHTS RESERVED.
+  </div>
+</footer>
+
+  <script src="../js/currency converter.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
