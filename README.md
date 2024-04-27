@@ -1,2 +1,3 @@
-Hello world! I'm masoom, a passionate frontend web developer with a knack for creating user-friendly and responsive websites. I take pride in presenting my latest project, a metric conversion website that seamlessly transforms measurements from meters to kilometers, kilometers to miles, and beyond.
+This webpage is designed to provide you with easy-to-use tools and information for converting various metric measurements. Whether you need to convert area, length, volume, mass, temperature, or currency, we've got you covered.
+
 https://masoom369.github.io/metric-conversions/
